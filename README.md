@@ -1,33 +1,50 @@
-# Flutter Steam
+# Flutter Steam Inventory & Trade Viewer
 
-**Flutter Steam** is a Flutter-based application designed to showcase and manage Steam virtual items and trades. It provides a sleek and interactive interface for users to browse their inventory, track item values, and initiate item trades directly from their mobile device.
+[![Awesome Flutter](https://img.shields.io/badge/Awesome-Flutter-blue.svg)](https://github.com/Solido/awesome-flutter)
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 
-## 🔑 Features
+> A clean and elegant **Steam Inventory Manager** built with Flutter, allowing users to browse, search, and manage their virtual items and trades directly from the Steam platform — optimized for gamers, traders, and collectors.
 
-- 🎮 **Steam Inventory Viewer**  
-  Display your in-game items (CS:GO, Dota 2, TF2, etc.) with images, names, float values, and more.
+---
 
-- 🔍 **Search and Filter**  
-  Easily search through your inventory and filter by game, rarity, price, or other item attributes.
+## 🎮 App Features
 
-- 📈 **Market Price Integration**  
-  View real-time market data and price trends using the Steam Market API.
+- 🧳 **Inventory Viewer**  
+  Display your Steam items (CS:GO skins, Dota 2, TF2 hats...) with icons, names, prices, wear levels, and more.
 
-- 🔄 **Trade System Support**  
-  Manage and preview trade offers. Optionally initiate trades through Steam’s trading system.
+- 🔍 **Advanced Search & Filter**  
+  Filter items by rarity, game, type, and price range. Search by keyword or partial name.
 
-- ⚙️ **OAuth Login**  
-  Secure login via Steam OAuth to access user inventory and account data.
+- 💹 **Market Price Integration**  
+  View real-time prices using Steam Community Market APIs. See fluctuations and price history (if supported).
 
-- 📱 **Responsive Flutter UI**  
-  Smooth and responsive mobile interface with reusable widgets and modular structure.
+- 💱 **Trade Offer Management**  
+  View, send, and manage trade offers. Preview items in each trade and confirm actions securely.
+
+- 🔐 **Steam OAuth Login**  
+  Secure authentication using Steam OAuth to access private inventory and manage trades.
+
+- 📱 **Modern Flutter UI**  
+  Responsive, animated UI built with Flutter. Supports light/dark themes, smooth transitions, and clean architecture.
+
+---
+
+## 📸 Screenshots
+
+| Inventory | Item Details | Trade Preview |
+|----------|---------------|----------------|
+| ![Inventory](screenshots/inventory.png) | ![Item](screenshots/item-details.png) | ![Trade](screenshots/trade-preview.png) |
+
+> _Note: Replace with your own screenshots as needed._
+
+---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Flutter SDK installed
-- A Steam API Key (register at [https://steamcommunity.com/dev/apikey](https://steamcommunity.com/dev/apikey))
+- Flutter SDK installed → [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Steam API Key → [Get one here](https://steamcommunity.com/dev/apikey)
 
 ### Installation
 
@@ -36,70 +53,3 @@ git clone https://github.com/dearvn/flutter_steam.git
 cd flutter_steam
 flutter pub get
 flutter run
-
-
-
-Clone from:
-# Flutter Pokedex
-
-[![Awesome Flutter](https://img.shields.io/badge/Awesome-Flutter-blue.svg)](https://github.com/Solido/awesome-flutter)
-[![Codemagic build status](https://api.codemagic.io/apps/5d3727997dee22001bb7681c/5d3727997dee22001bb7681b/status_badge.svg)](https://codemagic.io/app/5d3727997dee22001bb7681c/5d3727997dee22001bb7681b/latest_build)
-[![License](https://img.shields.io/badge/License-Apache%202.0-red.svg)](LICENSE)
-[![License](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
-
-Pokedex app built with Flutter
-
-## App preview
-
-![Home](screenshots/home.png "Home")
-![News](screenshots/home-news.png "News")
-![Pokedex](screenshots/pokedex.png "Pokedex")
-![Pokedex FAB](screenshots/pokedex-fab.png "Pokedex FAB")
-![Pokedex Generation](screenshots/pokedex-fab-generation.png "Pokedex Generation")
-![Pokemon Info - About](screenshots/pokemon-info-about.png "Pokemon Info - About")
-![Pokemon Info - Base Stats](screenshots/pokemon-info-base-stats.png "Pokemon Info - Base Stats")
-![Pokemon Info - Evolution](screenshots/pokemon-info-evolution.png "Pokemon Info - Evolution")
-![Pokemon Info - Base Stats (Expanded)](screenshots/pokemon-info-expanded.png "Pokemon Info - Base Stats (Expanded)")
-
-## Video demo
-[![Demo](screenshots/thumbnail.png)](https://www.youtube.com/watch?v=qKrFWerjoV8)
-
-## Installation
-
-- Add [Flutter](https://flutter.dev/docs/get-started/install) to your machine (the compatible Flutter version can be seen in the [.fvmrc](.fvmrc) file)
-
-- Open this project folder with Terminal/CMD and run `flutter pub get`
-
-- Run `flutter run` to build and run the debug app on your emulator/phone
-
-## Todos
-
-- [x] Home
-- [x] Home - Apply Sliver effect in home screen
-- [x] Pokedex
-- [x] Pokedex - FAB
-- [x] Pokedex - Add FAB animation
-- [ ] Pokedex - Add grid loading animation
-- [x] Pokedex - Add more Pokemons by [balvinderz](https://github.com/balvinderz)
-- [x] Pokedex - Add load more
-- [x] Pokemon Info
-- [x] Pokemon Info - About
-- [x] Pokemon Info - Base Stats
-- [x] Pokemon Info - Evolution
-- [ ] Pokemon Info - Moves (no design)
-- [x] Pokemon Info - Make tab area expandable
-- [x] Pokemon Info - Add animations
-- [x] Pokemon Info - Add more Pokemons by [balvinderz](https://github.com/balvinderz)
-- [ ] Pokemon Info - Add missing data in About tab
-- [x] Pokemon Info - Add Base Stats data by [balvinderz](https://github.com/balvinderz)
-- [x] Pokemon Info - Add Evolution data by [balvinderz](https://github.com/balvinderz)
-
-## Thanks
-
-- [Saepul Nahwan](https://dribbble.com/saepulnahwan23) for his [Pokedex App design](https://dribbble.com/shots/6545819-Pokedex-App)
-- [Sabri Bey](https://www.deviantart.com/sabribey) for the Pikachu gif
-- [Flutter](https://flutter.dev) for the great cross platform framework
-
-## License
-
-All the code available under the MIT + Apache 2.0. licenses. See [LICENSE](LICENSE).

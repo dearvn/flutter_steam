@@ -1,3 +1,45 @@
+# Flutter Steam
+
+**Flutter Steam** is a Flutter-based application designed to showcase and manage Steam virtual items and trades. It provides a sleek and interactive interface for users to browse their inventory, track item values, and initiate item trades directly from their mobile device.
+
+## 🔑 Features
+
+- 🎮 **Steam Inventory Viewer**  
+  Display your in-game items (CS:GO, Dota 2, TF2, etc.) with images, names, float values, and more.
+
+- 🔍 **Search and Filter**  
+  Easily search through your inventory and filter by game, rarity, price, or other item attributes.
+
+- 📈 **Market Price Integration**  
+  View real-time market data and price trends using the Steam Market API.
+
+- 🔄 **Trade System Support**  
+  Manage and preview trade offers. Optionally initiate trades through Steam’s trading system.
+
+- ⚙️ **OAuth Login**  
+  Secure login via Steam OAuth to access user inventory and account data.
+
+- 📱 **Responsive Flutter UI**  
+  Smooth and responsive mobile interface with reusable widgets and modular structure.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK installed
+- A Steam API Key (register at [https://steamcommunity.com/dev/apikey](https://steamcommunity.com/dev/apikey))
+
+### Installation
+
+```bash
+git clone https://github.com/dearvn/flutter_steam.git
+cd flutter_steam
+flutter pub get
+flutter run
+
+
+
+Clone from:
 # Flutter Pokedex
 
 [![Awesome Flutter](https://img.shields.io/badge/Awesome-Flutter-blue.svg)](https://github.com/Solido/awesome-flutter)
